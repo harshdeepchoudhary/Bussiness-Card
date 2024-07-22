@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <title>Job Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Boxicons CDN Link -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="header">
+      <nav>
+        <div class="navbar">
+          <i class="bx bx-menu"></i>
+          <div class="logo"><img src="logo (1).png" width="80px" /></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name">Job</span>
+              <i class="bx bx-x"></i>
+            </div>
+            <ul class="links">
+              <li><a href="#">HOME</a></li>
+              <li>
+                <a href="#">Explore Jobs</a>
+                <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Login Forms</a></li>
+                  <li><a href="#">Card Design</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                      <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                    </span>
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Neumorphism</a></li>
+                      <li><a href="#">Pre-loader</a></li>
+                      <li><a href="#">Glassmorphism</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Hire</a>
+                <i class="bx bxs-chevron-down js-arrow arrow"></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Dynamic Clock</a></li>
+                  <li><a href="#">Form Validation</a></li>
+                  <li><a href="#">Card Slider</a></li>
+                  <li><a href="#">Complete Website</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-end">
+            <a href="">Upload Your Cv</a>
+            <button class="btn-login">Login/Register</button>
+            <button class="btn-job">Post a Job</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="first-hero row">
+      <div class="col-6">
+        <div class="left-nav">
+          <h4>#1 PLATFORM FOR JOBS</h4>
+          <h1>fIND THE PERFECT JOBS FOR<br />YOUR ABBITONS</h1>
+          <h3>Connection Jobs Seekers and Employee for Success</h3>
+          <div class="left-inner">
+            <span>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input class="left-hero" type="text" style="font-size: 10px; width: 200px"
+                placeholder="Job title ,Keywwords or Company" /></span>
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+              <input class="left-hero" type="text" style="font-size: 10px; width: 200px"
+                placeholder="Location" /></span>
+            <button class="left-side-button">Post Job</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-nav col-6">
+        <img class="rigt-side-image" src="img/navimg.png" />
+      </div>
+    </div>
+
+    <!-- Job Category -->
+    <div class="job-cat id=job">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="title-job">
+            <h1>Explore The Job Category</h1>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <a href="Marketing" class="service-box text-center content-block" data-aos="fade-up"
+              data-aos-duration="200">
+              <div class="box-bg grad-style-cd"></div>
+              <span class="icon-container grad-style-ef-light">
+                <i class="fa-solid fa-bullhorn"></i>
+              </span>
+              <h4 class="service-head">Marketing</h4>
+              <p>99 Open Postion</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <a href="Design" class="service-box text-center content-block" data-aos="fade-up" data-aos-duration="200">
+              <div class="box-bg grad-style-cd"></div>
+              <span class="icon-container grad-style-ef-light">
+                <i class="fa-solid fa-book-bookmark"></i>
+              </span>
+              <h4 class="service-head">Design</h4>
+              <p>99 Open Postion</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <a href="Customer Care" class="service-box text-center content-block" data-aos="fade-up"
+              data-aos-duration="200">
+              <div class="box-bg grad-style-cd"></div>
+              <span class="icon-container grad-style-ef-light">
+                <i class="fa-solid fa-people-group"></i>
+              </span>
+              <h4 class="service-head">Customer Care</h4>
+              <p>99 Open Postion</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <a href="Finance" class="service-box text-center content-block" data-aos="fade-up" data-aos-duration="200">
+              <div class="box-bg grad-style-cd"></div>
+              <span class="icon-container grad-style-ef-light">
+                <i class="fa-solid fa-sack-dollar"></i>
+              </span>
+              <h4 class="service-head">Finance</h4>
+              <p>99 Open Postion</p>
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <a href="HealthCare" class="service-box text-center content-block" data-aos="fade-up"
+              data-aos-duration="200">
+              <div class="box-bg grad-style-cd"></div>
+              <span class="icon-container grad-style-ef-light">
+                <i class="fa-solid fa-heart-circle-plus"></i>
+              </span>
+              <h4 class="service-head">Health Care</h4>
+              <p>99 Open Postion</p>
+            </a>
+          </div>
+          <!-- <div class="col-lg-2 col-md-6">6</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trusted By Companies -->
+  <div class="">
+    <div class="container-fluid">
+      <div class="trust-company row justify-content-center">
+        <div class="title-job">
+          <h1>Explore The Job Category</h1>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/hcl.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/croma.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/linkeers.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/addidas.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/unilivr.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/lg.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/pepsi.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/cocacola.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/samsung.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/aspire.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/boat.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div>
+            <img class="trust-img" src="img/le.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Fetured Jobs -->
+  <div class="">
+    <div class="container-fluid">
+      <h1 class="feature-text-1">Latest Featured Jobs</h1>
+      <div class=" fwature-job row  justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-head">
+            <div class="feature-first">
+              <div>
+
+                <h5></h5><span><i class="bi bi-geo-alt"></i> London UK</span></h5>
+
+              </div>
+              <div>
+                <h5></h5><span><i class="bi bi-alarm"></i> 3 Days Ago</span></h5>
+
+              </div>
+
+            </div>
+            <div class="feature-second">
+              <h3 class="feature-text">Senior Social Media <br> Manager with Strong marketing skils</h3>
+              <button class="fe-btn-1">Full Time</button>
+              <button class="fe-btn-2">Urget</button>
+              <div>
+                <img src="img/hcl.png" width="80px" alt="">
+              </div>
+              <div>
+                <button class="feature-btn">Apply Now </button> &nbsp;<i class="bi bi-eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-head">
+            <div class="feature-first">
+              <div>
+
+                <h5></h5><span><i class="bi bi-geo-alt"></i> London UK</span></h5>
+
+              </div>
+              <div>
+                <h5></h5><span><i class="bi bi-alarm"></i> 3 Days Ago</span></h5>
+
+              </div>
+
+            </div>
+            <div class="feature-second">
+              <h3 class="feature-text">Senior Social Media <br> Manager with Strong marketing skils</h3>
+              <button class="fe-btn-1">Full Time</button>
+              <button class="fe-btn-2">Urget</button>
+              <div>
+                <img src="img/hcl.png" width="80px" alt="">
+              </div>
+              <div>
+                <button class="feature-btn">Apply Now </button> &nbsp;<i class="bi bi-eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-head">
+            <div class="feature-first">
+              <div>
+
+                <h5></h5><span><i class="bi bi-geo-alt"></i> London UK</span></h5>
+
+              </div>
+              <div>
+                <h5></h5><span><i class="bi bi-alarm"></i> 3 Days Ago</span></h5>
+
+              </div>
+
+            </div>
+            <div class="feature-second">
+              <h3 class="feature-text">Senior Social Media <br> Manager with Strong marketing skils</h3>
+              <button class="fe-btn-1">Full Time</button>
+              <button class="fe-btn-2">Urget</button>
+              <div>
+                <img src="img/hcl.png" width="80px" alt="">
+              </div>
+              <div>
+                <button class="feature-btn">Apply Now </button> &nbsp;<i class="bi bi-eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+
+          <div class="feature-head">
+            <div class="feature-first">
+              <div>
+
+                <h5></h5><span><i class="bi bi-geo-alt"></i> London UK</span></h5>
+
+              </div>
+              <div>
+                <h5></h5><span><i class="bi bi-alarm"></i> 3 Days Ago</span></h5>
+
+              </div>
+
+            </div>
+            <div class="feature-second">
+              <h3 class="feature-text">Senior Social Media <br> Manager with Strong marketing skils</h3>
+              <button class="fe-btn-1">Full Time</button>
+              <button class="fe-btn-2">Urget</button>
+              <div>
+                <img src="img/hcl.png" width="80px" alt="">
+              </div>
+              <div>
+                <button class="feature-btn">Apply Now </button> &nbsp;<i class="bi bi-eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-head">
+            <div class="feature-first">
+              <div>
+
+                <h5></h5><span><i class="bi bi-geo-alt"></i> London UK</span></h5>
+
+              </div>
+              <div>
+                <h5></h5><span><i class="bi bi-alarm"></i> 3 Days Ago</span></h5>
+
+              </div>
+
+            </div>
+            <div class="feature-second">
+              <h3 class="feature-text">Senior Social Media <br> Manager with Strong marketing skils</h3>
+              <button class="fe-btn-1">Full Time</button>
+              <button class="fe-btn-2">Urget</button>
+              <div>
+                <img src="img/hcl.png" width="80px" alt="">
+              </div>
+              <div>
+                <button class="feature-btn">Apply Now </button> &nbsp;<i class="bi bi-eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-head">
+            <div class="feature-first">
+              <div>
+
+                <h5></h5><span><i class="bi bi-geo-alt"></i> London UK</span></h5>
+
+              </div>
+              <div>
+                <h5></h5><span><i class="bi bi-alarm"></i> 3 Days Ago</span></h5>
+
+              </div>
+
+            </div>
+            <div class="feature-second">
+              <h3 class="feature-text">Senior Social Media <br> Manager with Strong marketing skils</h3>
+              <button class="fe-btn-1">Full Time</button>
+              <button class="fe-btn-2">Urget</button>
+              <div>
+                <img src="img/hcl.png" width="80px" alt="">
+              </div>
+              <div>
+                <button class="feature-btn">Apply Now </button> &nbsp;<i class="bi bi-eye"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="view-all"><button class="btn-view">View All</button></div>
+  </div>
+
+
+  <!-- Promotion -->
+  <div class="">
+    <div class="container-fluid">
+      <div class="promp row">
+        <div class="col-lg-4 col-md-4">
+          <h1>100k +</h1>
+          <h3>Tech Company Jobs</h3>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h1>5M +</h1>
+          <h3>Tech Company Jobs</h3>
+        </div>
+        <div class="col-lg-4  col-md-4">
+          <h1>2.4 M +</h1>
+          <h3>Tech Company Jobs</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Job Seekers -->
+    <div class="container-fluid">
+      <div class="seekers row">
+        <div>
+          <h1 class="seekers-title">Conneccting Job Seekers <br> and Employers</h1>
+        </div>
+
+        <div class="col-lg-6 col-md-3">
+          <div class="search-1">
+
+
+
+            <h3> <i class="fa-solid fa-bullhorn"></i> Search Millions Of Jobs</h3>
+            <p>Stay updated with real time market trends , <br>
+              salary insights and industry news </p>
+          </div>
+          <div class="search-2">
+
+
+
+            <h3> <i class="fa-solid fa-bullhorn"></i> Search Millions Of Jobs</h3>
+            <p>Stay updated with real time market trends , <br>
+              salary insights and industry news </p>
+          </div>
+        </div>
+        <div class="right-search col-lg-6 col-md-3">
+          <div class="search-3">
+
+
+
+            <h3> <i class="fa-solid fa-bullhorn"></i> Search Millions Of Jobs</h3>
+            <p>Stay updated with real time market trends , <br>
+              salary insights and industry news </p>
+          </div>
+          <div class="search-4">
+
+
+
+            <h3> <i class="fa-solid fa-bullhorn"></i> Search Millions Of Jobs</h3>
+            <p>Stay updated with real time market trends , <br>
+              salary insights and industry news </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hired Candidates -->
+    <div class="container-fluid">
+      <div class="hired row">
+        <div class="col-lg-3 col-md-12">
+          <img class="hired-img" src="img/jobendimage.png">
+        </div>
+        <div class="col-lg-9 col-md-12">
+          <h3>Learn About Hired Candiated</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam incidunt in quidem dolor
+            sapiente, iste praesentium modi impedit cumque amet debitis sit quibusdam cum excepturi minus odit
+            laboriosam unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit, nihil
+            voluptatem, iusto maxime laudantium maiores magni aspernatur corporis similique provident blanditiis itaque
+            nam ul
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque tempora quam vel natus eaque non dolores
+            molestiae libero laboriosam, rerum accusantium hic molestias! Vitae eius, ex adipisci corrupti harum
+            quam.lam doloremque ducimus illum delectus voluptatibus.
+          </p>
+          <div class="hired-about">
+            <h1>Katty Creaeford</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Marketing Manager at Digital Studio</p>
+          </div>
+          <div>
+            <i class="hired-left fa-solid fa-chevron-left"></i>
+            <i class="hired-right  fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid">
+    <div class="news"><h1>Recent News and <br>Articles</h1></div>
+    <div class="news-container row">
+      <div class="col-lg-4 col-md-12">
+        <div class="news-card">
+          <img class="news-img" src="img/news1.png" width="400px">
+          <h6>October 15 2023</h6>
+          <h3>10 Tips for Job Interviews</h3>
+
+        </div>
+      </div>
+      <div class="col-lg-4  col-md-6">
+        <div class="news-card">
+          <img class="news-img" src="img/news2.png" width="400px">
+          <h6>October 15 2023</h6>
+          <h3>10 Tips for Job Interviews</h3>
+
+        </div>
+      </div>
+      <div class="col-lg-4  col-md-6">
+        <div class="news-card">
+          <img class="news-img" src="img/news3.png" width="400px">
+          <h6>October 15 2023</h6>
+          <h3>10 Tips for Job Interviews</h3>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="updates">
+      <h1>Get Update about Job</h1>
+      <p>Subscribe our newsletter for grtting the update of <br>
+      suitable and perfect jobs</p>
+    </div>
+  </div>
+<footer>
+  <div class="footer-card row">
+    <div class="col-lg-3 col-md-6 col-sm-11">
+      <img src="logo (1).png" width="200px">
+      <h3>The best place to dicover <br>
+      and apply for jobs</h3>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-11">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href=""> Explore Jobs</a></li>
+        <li><a href="">Hire</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-11">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="">Location</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Email</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-11">
+      <h4>Download App</h4>
+      <ul class="downloads">
+        <li><a href=""><img class="down-img" src="img/googlestore.png"></a></li>
+        <li><a href=""> <img  class="down-img" src="img/iso.png"></a></li>
+   
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

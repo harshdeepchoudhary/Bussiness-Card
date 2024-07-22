@@ -1,0 +1,61 @@
+[29-Nov-2023 16:00:44 UTC] PHP Fatal error:  Uncaught TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in /home/preszrdu/public_html/test/emp/includes/database.php:13
+Stack trace:
+#0 /home/preszrdu/public_html/test/emp/includes/database.php(13): mysqli->__construct()
+#1 /home/preszrdu/public_html/test/emp/index.php(8): require_once('/home/preszrdu/...')
+#2 {main}
+  thrown in /home/preszrdu/public_html/test/emp/includes/database.php on line 13
+[29-Nov-2023 16:00:47 UTC] PHP Fatal error:  Uncaught TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in /home/preszrdu/public_html/test/emp/includes/database.php:13
+Stack trace:
+#0 /home/preszrdu/public_html/test/emp/includes/database.php(13): mysqli->__construct()
+#1 /home/preszrdu/public_html/test/emp/index.php(8): require_once('/home/preszrdu/...')
+#2 {main}
+  thrown in /home/preszrdu/public_html/test/emp/includes/database.php on line 13
+[29-Nov-2023 16:00:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in /home/preszrdu/public_html/test/emp/includes/database.php:13
+Stack trace:
+#0 /home/preszrdu/public_html/test/emp/includes/database.php(13): mysqli->__construct()
+#1 /home/preszrdu/public_html/test/emp/index.php(8): require_once('/home/preszrdu/...')
+#2 {main}
+  thrown in /home/preszrdu/public_html/test/emp/includes/database.php on line 13
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Undefined array key "id" in /home/preszrdu/public_html/test/emp/printid.php on line 9
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 31
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 103
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 115
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 126
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 137
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 147
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 158
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 169
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 180
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 191
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 202
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 213
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 224
+[29-Nov-2023 17:51:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 235
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 31
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 104
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 116
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 127
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 138
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 148
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 159
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 170
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 181
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 192
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 203
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 214
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 225
+[30-Nov-2023 09:20:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 236
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 31
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 104
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 116
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 127
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 138
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 148
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 159
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 170
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 181
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 192
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 203
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 214
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 225
+[30-Nov-2023 09:20:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/preszrdu/public_html/test/emp/printid.php on line 236

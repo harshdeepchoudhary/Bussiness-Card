@@ -1,0 +1,117 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+  
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+ img{
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+ }
+ body{
+  
+    background-image: url(myndlogosda.png);
+    background-size: cover;
+    height: 100vh;
+ }
+ .container .col-6{
+    position: relative;
+    text-align: center;
+    color: white;
+ }
+
+
+
+.container-fluid .col-6 .header{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Centered text */
+.header h1 {
+    
+
+color: #22376F;
+
+font-family: Poppins;
+font-size: 63.315px;
+font-style: normal;
+font-weight: 700;
+
+    z-index: 3;
+  
+   
+  }
+
+  .img1{
+    fill: url(bgmynd.png), lightgray 50% / cover no-repeat;
+filter: drop-shadow(22px 0px 50.3px rgba(0, 0, 0, 0.12));
+
+flex-shrink: 0;
+  }
+  .btn1{
+    display: flex;
+padding: 26px 48px 26px 56px;
+justify-content: flex-end;
+align-items: center;
+border-radius: 70px;
+border: 3px solid #22376F;
+background: #22376F;
+box-shadow: 0px 8px 0px 0px #303030;
+color: white;
+text-decoration: none;
+    
+  }
+  .btn2{
+    
+    display: flex;
+padding: 26px 117px;
+justify-content: center;
+align-items: center;
+border-radius: 70px;
+border: 3px solid #22376F;
+box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.25);
+color:  #22376F;
+text-decoration: none;
+background-color: #C3C2C1;
+
+  }
+  .button2{
+    margin-top: 20px;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left{
+    float: left;
+    z-index: -7;
+  }
+  .right{
+
+    margin-top: 35px;
+ margin-right: 10%;
+    float: right;
+    
+    
+    z-index: 3;
+  }
+
+  .container-fluid .col-6 .right{
+    
+    background-size: cover;
+    height: 100vh;
+  
+  }

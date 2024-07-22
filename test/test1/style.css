@@ -1,0 +1,618 @@
+:root {
+    /* --theme-color: #f54343; */
+    --theme-color: blue;
+    --theme-color-light: #F5B34326;
+    --theme-color-100: #F5B343;
+    --theme-color-75: #F5B34390;
+    --theme-color-50: #F5B34380;
+    --theme-color-25: #F5B34370;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+body {
+    font-family: 'Uniform', sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+    text-decoration: none;
+    max-width: 480px;
+
+
+
+    text-align: center;
+    /* box-shadow: 1px 2px 15px #48484833; */
+    padding-bottom: 90px;
+    /* background-image: url('./img/bg\ \(2\).jpg');  */
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px; */
+    word-break: break-word;
+}
+
+a {
+    text-decoration: none;
+    color: var(--theme-color);
+}
+
+strong,
+b {
+    font-family: 'Uniform Medium';
+}
+
+.separator {
+    height: 20px;
+    background-color: var(--theme-color);
+    width: 85%;
+    margin: 0 auto;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.bottom-separator {
+    height: 20px;
+    background-color: var(--theme-color);
+    width: 85%;
+    margin: 0 auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 6px;
+    border-bottom: 6px solid var(--theme-color);
+}
+
+.views-label {
+    padding: 5px 10px;
+    position: absolute;
+    color: var(--theme-color);
+    right: 50%;
+    top: 30px;
+    border: 1px solid var(--theme-color);
+    font-size: 14px;
+    margin-bottom: 0px;
+    border-radius: 18px;
+    transform: translate(50%, 0);
+}
+
+.profile-pic-img {
+    max-width: 120px;
+    margin-bottom: 5px;
+    border: 5px solid var(--theme-color);
+    padding: 5px;
+}
+
+.profile-pic-img.no-border {
+    border: 0;
+    border-radius: 0;
+}
+
+.firmname {
+    font-size: 17px;
+    font-family: 'Uniform Medium';
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.firmname-underline {
+    width: 40%;
+    background-color: var(--theme-color);
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Uniform';
+    font-size: 16px;
+    margin: 4px 0 0;
+    color: #555555;
+}
+
+/* .curve {
+    background-image: url(./curve.svg);
+    background-position: center top;
+    background-size: 150px 16px;
+    background-repeat: repeat-x;
+    height: 14px;
+} */
+
+.contact-buttons {
+    text-align: center;
+    width: calc(100% + 40px);
+    margin-top: 15px;
+}
+
+.contact-button {
+    padding: 8px 10px;
+    /* border-radius: 50px; */
+    min-width: 16px;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(255, 251, 251, 0.1) inset;
+    text-align: center;
+    background-color: var(--theme-color);
+    ;
+    color: #fff;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.lower {
+    background-image: url(./img/black-bg.jpg);
+}
+
+.contact-info-container {
+    border-left: 65px solid var(--theme-color);
+    color: #ffffff;
+    padding-right: 10px;
+    margin-top: -10px;
+    padding-top: 40px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.contact-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -30px;
+
+}
+
+.contact-info-wrapper .contact-piller-button {
+    min-width: 40px;
+    min-height: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    color: var(--theme-color);
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--theme-color);
+}
+
+.contact-info-wrapper .contact-info {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.contact-info-wrapper .contact-info a {
+    color: black;
+    font-weight: bold;
+}
+
+.contact-info-wrapper .contact-info .call-number {
+    display: block;
+}
+
+.shadow-buttons {
+    display: flex;
+    justify-content: center;
+    margin: -5px;
+}
+
+.shadow-button {
+    padding: 10px 2px;
+    font-size: 13px;
+    color: black;
+    margin: 5px;
+    flex: 1;
+    border: 2px solid var(--theme-color-75);
+    display: inline-block;
+    text-align: center;
+}
+
+.shadow-button .shadow-button-icon {
+    color: #F1F1F1;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: -2;
+}
+
+.save-card-button {
+    display: none;
+}
+
+/* Section CSS Starts */
+.page-wrapper {
+    background: #fff;
+    box-shadow: 1px 2px 15px #48484833;
+    position: relative;
+}
+
+.section-header {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-header-underline {
+    width: 20%;
+    background-color: var(--theme-color);
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.section-container {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 22px;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 1px 2px 15px #48484833;
+    background: #fff;
+    /* overflow: hidden; */
+    word-break: break-word;
+    background-image: url(black-bg.jpg);
+    color: #fff;
+
+}
+
+.section-content-wrapper {
+    padding: 0 20px 20px;
+}
+
+/* Section CSS Completed */
+
+/* Card CSS Starts */
+.card {
+    text-align: left;
+    /* background-color: var(--theme-color-light); */
+    border: 1px solid var(--theme-color);
+    padding: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(255, 251, 251, 0.1) inset; */
+    box-shadow: 0 6px 20px 0 #dbdbe8;
+    border-radius: 7px;
+}
+
+.card .card-title {
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: 'Uniform Medium';
+}
+
+/* Card CSS Completed */
+
+/* About us info classes start */
+.about-us-table {
+    color: black;
+    font-size: 14px;
+    margin-top: 15px;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+.about-us-table tr {
+    text-align: -webkit-left;
+    vertical-align: top;
+}
+
+.about-us-table .table-row-label {
+    text-align: left;
+    min-width: 150px;
+    vertical-align: top;
+    position: relative;
+}
+
+.about-us-table .table-row-label .table-row-label-text {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Uniform Medium';
+    font-size: 14px;
+}
+
+.about-us-table .table-row-label .table-row-label-separator {
+    position: absolute;
+    right: 0;
+}
+
+.speciality-label {
+    font-family: 'Uniform Medium';
+}
+
+.about-us-text {
+    text-align: justify;
+    max-width: 95%;
+}
+
+.document-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid #555555;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.document-wrapper .pdf-icon {
+    padding: 12px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.document-wrapper .pdf-number {
+    padding: 10px;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.document-wrapper .download-icon {
+    font-size: 18px;
+    padding: 12px;
+    border-left: 2px solid #555555;
+    color: var(--theme-color);
+}
+
+.other-links-wrapper .other-links-header {
+    font-family: 'Uniform Medium';
+}
+
+.other-links-wrapper .other-links-link {
+    display: block;
+    line-height: 20px;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.other-links-wrapper .other-links-link i {
+    margin-right: 10px;
+}
+
+/* About us info classes completed */
+
+
+
+
+
+
+
+
+
+
+
+/* Share Form in modal Start*/
+.share-modal {
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.share-form {
+    background-color: #F1F1F1;
+    color: #444;
+}
+
+.share-form .share-form-header {
+    position: relative;
+    padding: 20px 0;
+}
+
+.share-form .share-form-header .share-form-header-text {
+    padding-top: 12px;
+    margin: 0;
+}
+
+.share-form .share-form-header .close {
+    top: 18px;
+    color: #555555;
+}
+
+.share-form-buttons-container {
+    margin-bottom: 40px;
+}
+
+.share-buttons-heading {
+    position: relative;
+    padding: 0 60px;
+}
+
+.share-buttons-heading .share-buttons-arrow {
+    position: absolute;
+    left: 35px;
+    top: 16px;
+    width: 30px;
+    transform: rotateZ(15deg);
+}
+
+.share-buttons-heading .share-buttons-heading-text {
+    text-align: left;
+    font-family: Shadows Into Light;
+    line-height: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #D34544;
+    margin: 10px 0;
+}
+
+.share-buttons {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    padding: 0 60px;
+    margin: 0;
+}
+
+.share-buttons .share-button {
+    padding: 4px;
+    list-style: none;
+}
+
+.share-buttons .share-button i {
+    background-image: none;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    line-height: 1.1em;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-buttons.inprofile {
+    padding: 0;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.share-buttons.inprofile .share-button {
+    padding: 3px;
+}
+
+.share-buttons.inprofile .share-button i {
+    padding: 0;
+    height: 27px;
+    width: 27px;
+    font-size: 12px;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(255, 251, 251, 0.1) inset;
+}
+
+.share-button-whatsapp {
+    background-color: #29a71a;
+}
+
+.share-button-sms {
+    background-color: #1598d5;
+}
+
+.share-button-facebook {
+    background-color: #3b5998;
+}
+
+.share-button-twitter {
+    background-color: #2ba9e1;
+}
+
+.share-button-skype {
+    background-color: #00aff0;
+}
+
+.share-button-pinterest {
+    background-color: #cb2027;
+}
+
+.share-button-linkedin {
+    background-color: #007bb6;
+}
+
+.share-button-telegram {
+    background-color: #0088CC;
+    font-size: 15px;
+}
+
+.share-button-instagram {
+    background-color: #F18644;
+}
+
+.share-button-youtube {
+    background-color: #E63631;
+}
+
+.share-button-mail {
+    background-color: #939598;
+}
+
+/* Share section CSS start */
+.copy-link-wrapper {
+    color: #555555;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 1px 2px 15px #48484833;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.copy-link-wrapper .card-link {
+    padding: 10px;
+}
+
+.copy-link-wrapper .copy-link-icon-button {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.qr {
+    margin-top: 10px;
+    background-color: #dbdbe8;
+    height: 300px;
+}
+
+.qr-code-wrapper {
+
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-wrapper .qr-code-label {
+    font-size: 14px;
+    padding: 2px 10px;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+.qr-code-wrapper .qr-code-image {
+    background-color: #fff;
+    border-radius: 15px;
+    min-width: 180px;
+    max-width: 180px;
+    border: 4px solid var(--theme-color);
+}
